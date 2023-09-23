@@ -40,19 +40,109 @@ li {list-style-type: none;}
     margin: 0 auto;
 }
 
-.header-text {
+/* Header  */
+
+.header {
+    padding-bottom: 8px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 20px;
     letter-spacing: -0.54px;
     text-transform: uppercase;
+    text-decoration: none;
+    color: #111;
 }
 
-.header-text-accent {
+.logo-accent {
     font-style: italic;
 }
 
+.nav-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 24px 0;
+    color: #111;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #FD9222;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.header-socials {
+    display: flex;
+    gap: 18px;
+}
+
+.header-icons {
+    fill: none;
+    stroke: #111;
+}
+
+.header-nav {
+    display: flex;
+    gap: 24px;
+    flex-grow: 1;
+}
+
+/* Hero-section */
+
+.hero-section {
+    width: 1136px;
+    height: 600px;
+    flex-shrink: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2E2F42;
+    padding: 381px 612px 40px 40px;
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0.00) 0%, rgba(17, 17, 17, 0.40) 100%),
+        url(../images/background-section.jpg), lightgray -70.319px -105.03px / 110.32% 139.265% no-repeat;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-inner {
+    display: flex;
+    gap: 14px;
+}
+
+.hero-link {
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    width: 183px;
+    height: 45px;
+    padding: 14px 40px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 600;
+    line-height: normal;
+}
 .hero-title {
     color: #FFF;
     font-size: 28px;
@@ -61,28 +151,6 @@ li {list-style-type: none;}
     line-height: 34px;
     letter-spacing: -0.84px;
     margin-bottom: 32px;
-}
-
-.second-title { 
-color: #111;
-text-align: center;
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: 28px;
-letter-spacing: -0.72px;
-text-transform: uppercase;
-text-align: center;
-}
-
-.second-title-accent {
-    color: #FD9222;
-}
-
-.menu {color: #111;
-    font-weight: 500;
-    line-height: 16px;
-    text-decoration: none;
 }
 
 .primary-button {
@@ -94,6 +162,24 @@ text-align: center;
     border-radius: 100px;
     background-color: #FD9222;
 }
+
+.second-title {
+    color: #111;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.second-title-accent {
+    color: #FD9222;
+}
+
+/* Section-2 */
 
 .advantages-title {
     color: #FFF;
@@ -107,6 +193,26 @@ text-align: center;
 
 .advantages-text {
     color: #978b8b;
+}
+
+.advantages {
+    width: 1200px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: #1E1823;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.advantages-inner {
+    display: flex;
+    gap: 88px;
+}
+
+.advantages-item {
+    fill: #FD9222;
 }
 
 .ingridients {
@@ -135,6 +241,8 @@ text-align: center;
     letter-spacing: -0.24px;
     /* text-align: center; */
 }
+
+/* footer */
 
 .footer-text {
     color: #f2e1e1;
@@ -167,6 +275,7 @@ text-align: center;
 
 .contact-item {color: #FFF;}
 
+
 .footer-menu {
     color: #FFF;
     font-size: 14px;
@@ -176,53 +285,3 @@ text-align: center;
     letter-spacing: -0.28px;
 }
 
-.hero-section {
-    width: 1136px;
-    height: 600px;
-    flex-shrink: 0;    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #2E2F42;
-    padding: 381px 612px 40px 40px;
-    background: linear-gradient(180deg, rgba(17, 17, 17, 0.00) 0%, rgba(17, 17, 17, 0.40) 100%), 
-    url(../images/background-section.jpg), lightgray -70.319px -105.03px / 110.32% 139.265% no-repeat;
-    border-radius: 30px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.hero-inner {
-    display: flex;
-    gap: 14px;
-}
-
-.hero-link {
-    border-radius: 100px;
-    border: 1px solid #FFF;
-    width: 183px;
-    height: 45px;
-    padding: 14px 40px;
-    align-items: flex-start;
-    flex-shrink: 0;
-    text-decoration: none;
-    color: #FFF;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.advantages {
-width: 1200px;
-padding: 50px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-background: #1E1823;
-margin-right: auto;
-margin-left: auto;
-}
-
-.advantages-inner {
-    display: flex;
-    
-}
