@@ -174,7 +174,7 @@ li {list-style-type: none;}
     letter-spacing: -0.72px;
     text-transform: uppercase;
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .second-title-accent {
@@ -226,6 +226,7 @@ li {list-style-type: none;}
     margin-bottom: 22px;
     height: 62px;
     width: 62px;
+    padding: 15px;
 }
 
 .ingridients {
@@ -233,10 +234,6 @@ li {list-style-type: none;}
     text-transform: uppercase;
 }
 
-.bold-text {
-    font-weight: 600;
-    line-height: 24px;
-}
 
 .products-title {
     font-size: 18px;
@@ -258,7 +255,7 @@ li {list-style-type: none;}
 /* Section 3*/
 
 .ingridients-section {
-    margin-bottom: 64px;
+    padding: 0 32px 64px;
 }
 
 .ingridients-title {
@@ -323,8 +320,7 @@ li {list-style-type: none;}
 /*Section 4 */
 
 .made-section {
-    margin-top: 64px;
-    margin-bottom: 64px;
+    padding: 64px 32px;
 }
 
 .made-section-content {
@@ -337,7 +333,7 @@ li {list-style-type: none;}
 }
 
 .made-steps-text {
-    padding: 24px;
+    margin: 24px;
     list-style-type: disc;
 }
 
@@ -345,14 +341,14 @@ li {list-style-type: none;}
     font-size: 18px;
     font-weight: 600;
     line-height: 24px;
+    padding: 32px 32px 0 ; 
     margin-bottom: 28px;
-    padding: 32px 32px 0;
 }
 /* Section 5 */
 
 .products {
-    margin-top: 64px;
-    margin-bottom: 64px;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .products-list {
@@ -381,7 +377,10 @@ li {list-style-type: none;}
     background: #FAFAFA;
     padding: 8px 20px;
     text-align: center;
-}
+    width: 98px;
+    margin: 0 auto;
+    }
+
 
 .products-description {
     margin-bottom: 18px;
