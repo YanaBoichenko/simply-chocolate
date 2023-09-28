@@ -6,6 +6,7 @@ body {
     font-weight: 400;
     line-height: 18px;
     letter-spacing: -0.28px;
+    background-color: #fafafa;
 }
 
 h1, h2, h3, h4, p {
@@ -173,6 +174,7 @@ li {list-style-type: none;}
     letter-spacing: -0.72px;
     text-transform: uppercase;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .second-title-accent {
@@ -204,6 +206,8 @@ li {list-style-type: none;}
     background: #1E1823;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 128px;
+    margin-top: 72px;
 }
 
 .advantages-inner {
@@ -213,6 +217,15 @@ li {list-style-type: none;}
 
 .advantages-item {
     fill: #FD9222;
+}
+
+.advantages-icon {
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    border-radius: 50px;
+    fill: #FD9222;
+    margin-bottom: 22px;
+    height: 62px;
+    width: 62px;
 }
 
 .ingridients {
@@ -242,7 +255,165 @@ li {list-style-type: none;}
     /* text-align: center; */
 }
 
+/* Section 3*/
+
+.ingridients-section {
+    margin-bottom: 64px;
+}
+
+.ingridients-title {
+    color: #111;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.ingridients-text {
+    margin-bottom: 50px;
+}
+
+.ingridients-title-wrap  {
+    margin-left: auto;
+     margin-right: auto;
+    text-align: center;
+}
+
+.ingridients-list {
+    display: flex;
+    gap: 19px;
+    text-align: center;
+    justify-content: center;
+    flex-basis: 1;
+}
+
+.ingridients-item {
+    border-radius: 15px;
+    border: 1px solid #FD9222;
+    background: #FFF;
+    padding: 28px 36px 28px 28px;
+}
+
+.ingridients-item:nth-child(1) {
+    background-color: #FD9222;
+}
+
+.ingridients-item:nth-child(3) {
+    background-color: #1E1823;
+} 
+
+.ingridients-picture {
+    margin-bottom: 36px;
+}
+
+.ingridients-picture:nth-child(1) {
+    stroke: #FD9222;
+}
+
+.ingridients {
+    text-align: left;
+    color: #111;
+}
+
+/*Section 4 */
+
+.made-section {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.made-section-content {
+    display: flex;
+    gap: 20px;
+}
+
+.made-section-text {
+    padding: 0 32px 32px;
+}
+
+.made-steps-text {
+    padding: 24px;
+    list-style-type: disc;
+}
+
+.bold-text {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 28px;
+    padding: 32px 32px 0;
+}
+/* Section 5 */
+
+.products {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.products-list {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    text-align: center;
+}
+
+.products-item {
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FFF;
+    padding: 32px 20px;
+}
+
+.products-picture {
+    margin-bottom: 8px;
+}
+
+.products-value {
+    line-height: normal;
+    font-weight: 600;
+    border-radius: 100px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FAFAFA;
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.products-description {
+    margin-bottom: 18px;
+}
 /* footer */
+
+.footer {
+    background-color: #1E1823;
+    padding: 50px 32px;
+}
+
+.address {
+    display: flex;
+    gap: 63px;
+    text-align: left;
+    margin-bottom: 86px;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social-link {
+    display: flex;
+    gap: 18px;
+}
+
+.f-social-item {
+    stroke: #FFF;
+}
+
 
 .footer-text {
     color: #f2e1e1;
@@ -258,15 +429,16 @@ li {list-style-type: none;}
 
 .contact-us {
     color: #FFF;
-    text-align: center;
+    text-align: left;
     font-size: 14px;
     font-weight: 500;
     line-height: 18px;
+    padding-bottom: 14px;
 }
 
 .contact-list {
     color: #FFF;
-    text-align: center;
+    text-align: left;
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
@@ -277,6 +449,8 @@ li {list-style-type: none;}
 
 
 .footer-menu {
+    display: flex;
+    gap: 24px;
     color: #FFF;
     font-size: 14px;
     font-style: normal;
