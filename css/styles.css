@@ -39,6 +39,8 @@ li {list-style-type: none;}
 .container {
     max-width: 1158px;
     margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 /* Header  */
@@ -178,6 +180,7 @@ li {list-style-type: none;}
     border-radius: 50%;
     background-color: #FFF;
     fill: #FD9222;
+    padding: 8px;
 }
 
 .hero-btn-scroll {
